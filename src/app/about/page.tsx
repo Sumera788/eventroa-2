@@ -1,0 +1,1 @@
+export default function P(){return <div className="mx-auto max-w-3xl px-4 py-10"><h1 className="font-display text-4xl font-bold">About Eventora</h1><p className="mt-4 text-lg leading-relaxed">Eventora connects people with events worth attending, and gives organizers simple tools to sell tickets and grow audiences. Discover, book and enjoy, all in one place.</p></div>}

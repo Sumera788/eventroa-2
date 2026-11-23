@@ -1,0 +1,10 @@
+@tailwind base;@tailwind components;@tailwind utilities;
+:root{color-scheme:light} body{background:#faf8ff;color:#171329}
+:focus-visible{outline:3px solid #ed36b7;outline-offset:3px}
+@media(prefers-reduced-motion:reduce){*{animation:none!important;transition:none!important;scroll-behavior:auto!important}}
+.btn{@apply inline-flex items-center justify-center gap-2 rounded-full px-5 py-3 font-bold transition duration-200 active:scale-95}
+.btn-p{@apply btn bg-gradient-to-r from-fuchsia-600 to-purple-600 text-white shadow-lg shadow-fuchsia-900/20 hover:brightness-110}
+.btn-a{@apply btn border border-white/40 bg-white/10 text-white backdrop-blur hover:bg-white/20}
+.btn-o{@apply btn border border-ink/15 text-ink hover:border-fuchsia-400 hover:text-fuchsia-700}
+.inp{@apply w-full rounded-xl border border-ink/15 bg-white px-4 py-3 text-ink outline-none focus:border-fuchsia-500 focus:ring-2 focus:ring-fuchsia-100}
+.skel{@apply animate-pulse rounded-2xl bg-ink/10}
